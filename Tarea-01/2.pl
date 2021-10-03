@@ -1,0 +1,1 @@
+eliminar_digito(S,C,X) :- atom_concat(L,R,S), atom_concat(C,W,R), atom_concat(L,W,X).
